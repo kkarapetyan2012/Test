@@ -1,0 +1,22 @@
+$roboto-font-path: "../fonts/poppins";
+
+@font-face {
+  font-family: 'Poppins-light';
+  src: url($roboto-font-path + "/Poppins-Light.ttf") format('truetype');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Poppins-medium';
+  src: url($roboto-font-path + "/Poppins-Medium.ttf") format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Poppins-bold';
+  src: url($roboto-font-path + "/Poppins-Bold.ttf") format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
